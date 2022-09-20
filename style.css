@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: spotify;
+    src: url('GothamLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 header {
     text-align: center;
     margin-top: 15px;
@@ -33,6 +40,7 @@ body section {
 
 body section h2 {
     color: white;
+    font-family: spotify;
 }
 
 section h2 {
